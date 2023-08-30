@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Escape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---logo-->
+    <header class="top-bar">
+        <div>
+        <img src="./images/logo.png" alt="logo">    
+        </div>
+    </header>
+    <!--poster-->
+    <section class="banner">
+      <div class="off-offer">
+        <p class="off-offer_value">15% <span>off</span></p>
+        <p class="off-offer_addition">
+            + Free Meals
+        </p>
+      </div>  
+    </section>
+
+    <main class="main-content">
+
+
+      <!-- title -->
+      <section class="title">
+        <h1 class="title__heading"><span>The Great Escape</span> <span>Water Park</span></h1>
+        <div class="authorised-tag">
+          <img src="./images/authorised-ticket-seller-tag.png" alt="Authorised Ticker Seller" />
+        </div>
+      </section>
+      
+        <!-- off-offer-2 -->
+    <section class="off-offer-2">
+      <span class="clip">OFFER</span>
+      <span class="text">15% Off + Free meals</span>
+    </section>
+    <div class="container">
+      <div class="form__outer" id="booking-form">
+
+        <!--form-->
+        <h2 class="form__heading">-Booking-</h2>
+        <form action="">
+
+          <!--input for date-->
+          <div class="form__group form__group--date">
+            <label for="date" class="form__label">Select a date</label>
+            <div class="form__input__container">
+              <img src="./images/calendar-vector.png" alt="">
+              <input type="text" name="date" id="date" class="form__input" placeholder="" />
+            </div>
+          </div>
+
+       
+          <!-- input for adults -->
+
+          <div class="form__group form__group--adults">
+            <label for="adults" class="form__label">Adult <span>(Above 4.46ft)</span></label>
+            <div class="form__input__container">
+              <button class="btn btn--decrement" type="button">-</button>
+              <input type="number" name="adults" id="adults" class="form__input" placeholder="" min="0" max="99"
+                value="1" />
+              <button class="btn btn--increment" type="button">+</button>
+            </div>
+          </div>
+
+          <!-- input for kids -->
+
+          <div class="form__group form__group--kids">
+            <label for="kids" class="form__label">Kids <span>(Height 3.3ft to 4.46ft)</span></label>
+            <div class="form__input__container">
+              <button class="btn btn--decrement" type="button">-</button>
+              <input type="number" name="kids" id="kids" class="form__input" placeholder="" min="0" max="99"
+                value="1" />
+              <button class="btn btn--increment" type="button">+</button>
+            </div>
+          </div>
+
+          <!-- input for senior citizen -->
+
+          <div class="form__group form__group--senior-citizen">
+            <label for="senior-citizen" class="form__label">Senior Citizen <span>(Above 58 years)</span></label>
+            <div class="form__input__container">
+              <button class="btn btn--decrement" type="button">-</button>
+              <input type="number" name="senior-citizen" id="senior-citizen" class="form__input" placeholder="" min="0"
+                max="99" value="1" />
+              <button class="btn btn--increment" type="button">+</button>
+            </div>
+          </div>   
+
+          <!--input for infant free-->
+
+          <div class="form__group form__group--infant">
+          <label for="infant-fee" class="form__label">children <span>(Below height 3.3ft - free)</span></label>
+          </div>
+
+          <div class="pricing">
+            <div class="pricing__mrp">
+              <div class="pricing__mrp--value">
+               <span class="currency">₹</span><span class="value">3900</span> 
+              </div>
+            </div>
+            <div class="pricing_discounted">
+              <div class="pricing__discounted--text">
+                You pay
+              </div>
+              <div class="pricing__discounted--value">
+                <span class="currency">₹</span><span class="value">3300</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="action-btns">
+            <button class="btn btn--book-now" type="submit">Book Now</button>
+            <button class="btn btn--group-booking" id="open-group-form" type="button"><img src="./images/envelope-vector.png" alt="" <span>Group Booking</span></button>
+          </div>
+          </form>
+
+          <!--phone-book-->
+
+          <div class="phone-book">
+            <a href="tel:+918707543847">
+              <img src="./images/dialer.png" alt="">
+              <span class="phone-book_text">
+                <span class="phone-book_text--title">
+                  <span>Book</span> by phone 
+                </span>
+                <span class="phone-book_text--number">+91 870 754 3847</span>
+                </span>
+              </span>
+            </a>
+          </div>
+
+          
+        </section>
+      </div>
+      <div class="mix-outer">
+        <!-- tabs -->
+        <section class="tabs">
+          <div class="tabs__links">
+            <a href="#" class="tabs__links--active" data-target="description">Description</a>
+            <a href="#" data-target="inclusions">What you get</a>
+            <a href="#" data-target="exclusions">What you don&#39;t get</a>
+            <a href="#" data-target="highlights">Highlights</a>
+            <a href="#" data-target="terms">Terms &amp; Conditions</a>
+          </div>
+          <div class="tabs__data">
+            <div class="tabs__content tabs__content--active" data-tab="description">
+              <p>Located among the picturesque mountains of Pelhar, Great Escape is a 24-acre water theme park in Virar
+                East, Maharashtra, Mumbai. It features multiple pools and slides, including the new humungous water
+                slide attraction. Enjoy 18 exciting rides, over a dozen breathtaking water slides, wave pools, landing
+                pool, kiddies pool, jungle safari slides, rain dance, and more. Plus, unlimited vegetarian food, live
+                counters, and DJ. No alcohol is permitted. An ideal water park for family and friends in Mumbai. We
+                employ state-of-the-art safety and medical facilities, and our new operations prioritize health and
+                safety with your cooperation. Join us at Great Escape Water Park and recharge yourself!
+              </p>
+
+
+              <div class="address" aria-labelledby="address-label">
+                <h5 id="address-label">Address</h5>
+                <p>
+                  Parol - Bhiwandi Road, Off Vajreshwari Road Bombay Ahmedabad highway,<br>
+                  Virar (East), Thane,<br>
+                  Maharashtra,<br>
+                  India
+                </p>
+              </div>
+         
+                  <div class="park-timings">
+                    <h5 id="park-timings-label">Park Timings</h5>
+                    <dl aria-labelledby="park-timings-label">
+                      <dt>Monday to Saturday:</dt>
+                      <dd>10:00 AM to 06:00 PM</dd>
+                      <dt>Sunday:</dt>
+                      <dd>09:00 AM to 06:00 PM</dd>
+                    </dl>
+                  </div>
+                  <p><strong>Note:</strong> All Slides and Wave pool close at 05:00 PM</p>
+                </div>
+
+              </div>
+            </div>
+             <!-- reviews -->
+        <section class="reviews">
+          <div class="reviews__container">
+            <h2 class="reviews__heading">
+              <span class="reviews__heading--content">
+                Reviews <span class="reviews__heading--count">4.7</span> <span class="reviews__heading--star">★</span>
+              </span>
+            </h2>
+            <div class="reviews__slider owl-carousel">
+              <div class="item">
+                <div class="reviews__slide">
+                  <blockquote>
+                    <p>
+                      Got Great Escape tickets at a super deal. The tickets were sent instantly. Had amazing fun with
+                      family
+                      <span class="arrow"></span>
+                    </p>
+                    <cite>
+                      <span class="reviews__slide--name">Yojana</span>
+                      <span class="reviews__slide--rating">★★★★★</span>
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="item">
+                <div class="reviews__slide">
+                  <blockquote>
+                    <p>
+                      If you are looking for discounts on tickets, then book with tripXOXO. Great Escape is truly fun
+                      place to be in with kids and family
+                      <span class="arrow"></span>
+                    </p>
+                    <cite>
+                      <span class="reviews__slide--name">Alisha</span>
+                      <span class="reviews__slide--rating">★★★★★</span>
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="item">
+                <div class="reviews__slide">
+                  <blockquote>
+                    <p>
+                      Thank you tripXOXO for an amazing deal on tickets.
+                      <span class="arrow"></span>
+                    </p>
+                    <cite>
+                      <span class="reviews__slide--name">Ruchit</span>
+                      <span class="reviews__slide--rating">★★★★★</span>
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+    <!-- footer -->
+
+
+    <!-- bottom bar -->
+
+    <div class="bottom-bar">
+      <a href="tel:+917400199990" class="btn btn--call">
+        Call Now
+      </a>
+      <a href="#booking-form" class="btn btn--book">
+        Book Now
+      </a>
+    </div>
+
+  </main>
+  <footer class="footer">
+<div class="founder">Made by-Azman javed
+  <img src="./images/WhatsApp Image 2023-02-23 at 15.54.39.jpg" alt="Imag
+  ">
+</div>
+  </footer>
+
+
+                
+             
+
+
+        
+
+              
+
+
+
+
+              
+
+
+
+
+
+
+
+          
+
+</body>
+</html>
